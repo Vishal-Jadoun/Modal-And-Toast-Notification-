@@ -1,0 +1,28 @@
+.modal-box {
+  border: 1px solid black;
+  margin: 60px auto;
+  padding: 20px;
+  position: relative;
+  width: 360px;
+  max-width: calc(100% - 40px);
+}
+
+.modal-box h2 {
+  margin-top: 0;
+}
+
+.modal-box p {
+  margin-bottom: 20px;
+}
+
+.close-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 8px;
+}
+
